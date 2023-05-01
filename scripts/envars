@@ -1,0 +1,25 @@
+#! /usr/bin/bash
+
+# Setting up GitPod env vars
+
+echo "Setting GitPod env vars."
+
+gp env AWS_ACCESS_KEY_ID="AKIA4XSIEY5LBQBSUOXV"
+gp env AWS_ACCOUNT_ID="875250894678"
+gp env AWS_COGNITO_USER_POOL_ID="us-west-1_rPiNkqPbW"
+gp env AWS_DEFAULT_REGION="us-west-1"
+gp env AWS_SECRET_ACCESS_KEY="UrBUXNx019LBFCN6BSes1PnV4LqcsAPyO0Tu1wNA"
+gp env CONNECTION_URL="postgresql://postgres:password@localhost:5432/cruddur"
+gp env DB_SG_ID="sg-05b4d3f37c2897983"
+gp env DB_SG_RULE_ID="sgr-029c25ef7df481287"
+gp env DEFAULT_VPC_ID="vpc-00b167c5e46da99d1"
+gp env ECR_BACKEND_FLASK_URL="875250894678.dkr.ecr.us-west-1.amazonaws.com/backend-flask"
+gp env ECR_FRONTEND_REACT_URL="875250894678.dkr.ecr.us-west-1.amazonaws.com/frontend-react-js"
+gp env ECR_PYTHON_URL="875250894678.dkr.ecr.us-west-1.amazonaws.com/cruddur-python"
+gp env HONEYCOMB_API_KEY="qFpPcYYEvC7MeIX3lzL4lD"
+gp env HONEYCOMB_SERVICE_NAME="Cruddur"
+gp env PROD_CONNECTION_URL="postgresql://root:buenoDB321@cruddur-db-instance.chlatt1rftap.us-west-1.rds.amazonaws.com:5432/cruddur"
+gp env ROLLBAR_ACCESS_TOKEN="c2fb66655ffe4143b041a6fb01257d4d"
+                                            
+
+echo "Successfully set env vars, now it's green tea sipping time."
